@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Yazılımla Güçlenen Kadınlar Üyelik Formu</h1>
+   <br><br><br>
+   <div>
+        <div class="gender-container">
+            <h2>Cinsiyetiniz</h2> 
+            <form>
+                <input type="radio" value="kadin" name="gender" id="gender1">
+                <label for="gender1">Kadın</label>
+                <br>
+                <input type="radio" value="erkek" name="gender" id="gender2">
+                <label for="gender2">Erkek</label>
+            </form>
+        </div>
+    <br>
+    <div class="form-container">
+        <h2>Üye Kayıt Formu</h2>
+        <form>
+            <label>İsim:</label>
+            <input type="text">
+            <br>
+            <label>Soy İsim:</label>
+            <input type="text">
+            <br>
+            <label>E-mail:</label>
+            <input type="email" required>
+            <br>
+            <label>Yaş:</label>
+            <input type="number" min="20" max="100" step="2">
+            <br><br>
+            <label>LinkedIn Profili:</label>
+            <input type="text" id="linkedin" name="linkedin" placeholder="LinkedIn profil linkinizi girin" required>
+        </form>
+    </div>
+   <br>
+   <div class="form-container">
+    <form>
+        <h2>Front-End Alanında kaç Yıl Deneyime Sahipsiniz?</h2>
+        <label for="deneyim">Kaç Yıl Deneyime Sahipsiniz?</label>
+        <select id="deneyim" name="deneyim" required>
+            <option value="0">0 Yıl</option>
+            <option value="1-2">1-2 Yıl</option>
+            <option value="2-5">2-5 Yıl</option>
+            <option value="5+">5 Yıl ve Üzeri</option>
+        </select>
+    </form>
+   <div class="container">
+    <h2>Kişisel Özet</h2>
+   <form action="styled-form">
+    <label>Bu bölüm isteğe bağlıdır. Bize kendiniz hakkında biraz daha bilgi vermek için bunu kullanın.</label>
+    <br>
+   <textarea rows="15" id="" name=""></textarea>
+   <br>
+   <input type="submit" value="Gönder">
+   </form>
+   
+   </div>
+    
+
+   </div>
+</body>
+</html>
